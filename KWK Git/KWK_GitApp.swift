@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-@main
-struct KWK_GitApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+struct ContentView: View {
+    @State private var showFunFacts = false;
 }
